@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scene/MenuAwal.unity
+    path: Assets/Scenes/StartMenu.unity
     guid: 21aa40f601a8afd4e9c8fc25177e3fcb
   - enabled: 1
     path: Assets/Scenes/Virtual Archery.unity
