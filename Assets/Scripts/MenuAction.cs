@@ -8,13 +8,13 @@ using UnityEngine.UIElements;
 
 public class MenuAction : MonoBehaviour
 {
-    public GameObject panel;
+    public GameObject panel, leave;
     public InputField txtInput;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        leave.SetActive(false);
     }
 
     // Update is called once per frame
@@ -35,5 +35,9 @@ public class MenuAction : MonoBehaviour
     public void JoinRoom()
     {
         panel.SetActive(false);
+        leave.SetActive(true);
+
+        //GameObject AvatarName = GameObject.FindGameObjectWithTag("AvatarName");
+        //AvatarName.GetComponent<Text>().text = txtInput.text;
     }
 }
