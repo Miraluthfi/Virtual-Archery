@@ -283,6 +283,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -25.617, z: 0}
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 --- !u!1 &943047849
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,6 +365,10 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943047849}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
+=======
+>>>>>>> 83633fe3bb461ce70c4419f3806541bc5a3bfc8b
+>>>>>>> Stashed changes
 --- !u!1 &959857553
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,6 +399,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1514838623}
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  leave: {fileID: 0}
+=======
+>>>>>>> 83633fe3bb461ce70c4419f3806541bc5a3bfc8b
+>>>>>>> Stashed changes
   txtInput: {fileID: 1134497206}
 --- !u!4 &959857555
 Transform:
@@ -1107,7 +1123,14 @@ RectTransform:
   m_Children:
   - {fileID: 1514838624}
   - {fileID: 1035430919}
+<<<<<<< Updated upstream
   - {fileID: 943047850}
+=======
+<<<<<<< HEAD
+=======
+  - {fileID: 943047850}
+>>>>>>> 83633fe3bb461ce70c4419f3806541bc5a3bfc8b
+>>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -24.662, z: 0}
@@ -1190,6 +1213,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1514838623}
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  leave: {fileID: 0}
+  txtInput: {fileID: 1134497206}
+=======
+>>>>>>> Stashed changes
   txtInput: {fileID: 1134497206}
 --- !u!1 &1303389227
 GameObject:
@@ -1363,6 +1393,10 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 83633fe3bb461ce70c4419f3806541bc5a3bfc8b
+>>>>>>> Stashed changes
 --- !u!1 &1380604500
 GameObject:
   m_ObjectHideFlags: 0
