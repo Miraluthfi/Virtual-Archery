@@ -9,13 +9,6 @@ using UnityEngine.UIElements;
 public class MenuAction : MonoBehaviour
 {
     public GameObject panel;
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-    public GameObject leave;
-=======
->>>>>>> 83633fe3bb461ce70c4419f3806541bc5a3bfc8b
->>>>>>> Stashed changes
     public InputField txtInput;
 
     // Start is called before the first frame update
