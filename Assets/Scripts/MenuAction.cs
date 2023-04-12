@@ -5,11 +5,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
+using TMPro;
 
 public class MenuAction : MonoBehaviour
 {
-    public GameObject panel, leave;
+    public GameObject panel, leave, cam;
+    public GameObject avatar;
+    public Transform[] spawn;
     public InputField txtInput;
+
+    private GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -36,8 +41,21 @@ public class MenuAction : MonoBehaviour
     {
         panel.SetActive(false);
         leave.SetActive(true);
+        cam.SetActive(false);
 
-        //GameObject AvatarName = GameObject.FindGameObjectWithTag("AvatarName");
-        //AvatarName.GetComponent<Text>().text = txtInput.text;
+        int i = Random.Range(0, spawn.Length);
+        player = Instantiate(avatar, spawn[i].position, Quaternion.identity);
+
+        GameObject AvatarName = GameObject.Find("Label Name");
+        AvatarName.GetComponent<TextMeshPro>().text = txtInput.text;
+    }
+
+    public void ShowPanel()
+    {
+        Destroy(player);
+
+        panel.SetActive(true);
+        leave.SetActive(false);
+        cam.SetActive(true);
     }
 }
