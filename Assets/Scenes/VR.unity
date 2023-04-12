@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -390,6 +390,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1514838623}
+  leave: {fileID: 0}
+  cam: {fileID: 0}
+  avatar: {fileID: 0}
+  spawn: []
   txtInput: {fileID: 1134497206}
 --- !u!4 &959857555
 Transform:
@@ -441,8 +445,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 70, y: -4}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 106.7, y: -1.9999}
+  m_SizeDelta: {x: -16.3, y: -4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &981613735
 MonoBehaviour:
@@ -464,7 +468,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '           Join Room'
+  m_text: Join Room
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc0f1ed3d259db04fa7423d1f52f591b, type: 2}
   m_sharedMaterial: {fileID: -3532604227441341396, guid: fc0f1ed3d259db04fa7423d1f52f591b, type: 2}
@@ -527,7 +531,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -55.471573, y: 0, z: 91.75181, w: 11.611189}
+  m_margin: {x: -55.471573, y: 0, z: 139.85768, w: 11.611189}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -567,7 +571,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003676409}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.6900043}
+  m_LocalPosition: {x: 0, y: 0, z: -1.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -576,7 +580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -43.999702, y: 3.199917}
+  m_AnchoredPosition: {x: -84.8, y: 6.3}
   m_SizeDelta: {x: 44.83, y: 37.393}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1003676411
@@ -1190,6 +1194,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1514838623}
+  leave: {fileID: 0}
+  cam: {fileID: 0}
+  avatar: {fileID: 0}
+  spawn: []
   txtInput: {fileID: 1134497206}
 --- !u!1 &1303389227
 GameObject:
@@ -1671,7 +1679,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581543620}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.03000284}
+  m_LocalPosition: {x: 0, y: 0, z: -0.030002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1680,7 +1688,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -30.999844, y: -0.00030612946}
+  m_AnchoredPosition: {x: -38.3, y: -0.000055142}
   m_SizeDelta: {x: 44.83, y: 37.393}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1581543622
@@ -1756,7 +1764,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 83, y: -12}
+  m_AnchoredPosition: {x: 84.2, y: -9.4}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1660398281
