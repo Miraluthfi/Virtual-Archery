@@ -109,7 +109,8 @@ namespace StarterAssets
         private const float _threshold = 0.01f;
 
         private bool _hasAnimator;
-
+        public GameObject arrowObject;
+        public Transform arrowPoint;
         private bool IsCurrentDeviceMouse
         {
             get
@@ -166,11 +167,21 @@ namespace StarterAssets
             if(_input.isAiming && Grounded && !_input.sprint)
             {
                 _animator.SetBool("Aiming", _input.isAiming);
+                _animator.SetBool("Shooting",_input.isShooting);
+                
             }
             else
             {
                 _animator.SetBool("Aiming", false);
+                _animator.SetBool("Shooting", false);
             }
+        }
+        public void Shoot()
+        {
+            GameObject arrow = Instantiate(arrowObject, arrowPoint.position, transform.rotation);
+            arrow.GetComponent<Rigidbody>().AddForce(transform.forward *25f, ForceMode.Impulse);
+            
+            
         }
 
         private void LateUpdate()

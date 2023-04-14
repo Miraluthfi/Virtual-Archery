@@ -13,14 +13,14 @@ namespace StarterAssets
 		public bool jump;
 		public bool sprint;
 		public bool isAiming;
-
+		public bool isShooting;
 		[Header("Movement Settings")]
 		public bool analogMovement;
 
 		[Header("Mouse Cursor Settings")]
 		public bool cursorLocked = true;
 		public bool cursorInputForLook = true;
-
+		
 #if ENABLE_INPUT_SYSTEM
 		public void OnMove(InputValue value)
 		{
@@ -47,6 +47,10 @@ namespace StarterAssets
 
 		public void OnAiming(InputValue value){
 			isAiming = value.isPressed;
+		}
+		public void OnShoot(InputValue value)
+		{
+			isShooting = value.isPressed;
 		}
 #endif
 
