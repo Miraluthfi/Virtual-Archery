@@ -111,8 +111,11 @@ namespace StarterAssets
         private bool _hasAnimator;
         public GameObject arrowObject;
         public Transform arrowPoint;
-        private bool IsCurrentDeviceMouse
-        {
+        public GameObject playerFollowCamera;
+        public GameObject playerAimCamera;
+
+        
+        private bool IsCurrentDeviceMouse{
             get
             {
 #if ENABLE_INPUT_SYSTEM
@@ -168,12 +171,15 @@ namespace StarterAssets
             {
                 _animator.SetBool("Aiming", _input.isAiming);
                 _animator.SetBool("Shooting",_input.isShooting);
-                
+                playerFollowCamera.SetActive(false);
+                playerAimCamera.SetActive(true);
             }
             else
             {
                 _animator.SetBool("Aiming", false);
                 _animator.SetBool("Shooting", false);
+                playerFollowCamera.SetActive(true);
+                playerAimCamera.SetActive(false);
             }
         }
         public void Shoot()
