@@ -186,8 +186,8 @@ MonoBehaviour:
     y: 0
     width: 230
     height: 430.66666
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -224,23 +224,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0ac00100
-      m_LastClickedID: 114698
-      m_ExpandedIDs: d6e7ffffe4ecffff4cf0ffff70f5ffffb4f6ffff12fbffff946e0000e26f0000f46f000094790000b2920000e8bf010090c00100fcc0010018c10100
+      m_SelectedIDs: a28a0000
+      m_LastClickedID: 35490
+      m_ExpandedIDs: 6aecffffbcedffffccedffffecedffff12fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: SpawnPoint2
+        m_OriginalName: SpawnPoint2
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 35490
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -537,9 +537,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.5360796, y: 7.528013, z: 13.680038}
+    m_Target: {x: -310.04456, y: 53.961758, z: -239.16454}
     speed: 2
-    m_Value: {x: -3.5360796, y: 7.528013, z: 13.680038}
+    m_Value: {x: -310.04456, y: 53.961758, z: -239.16454}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -586,13 +586,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.21552573, y: 0.048314378, z: -0.010677414, w: 0.9752473}
+    m_Target: {x: -0.4121401, y: 0.568096, z: -0.39494106, w: -0.59283084}
     speed: 2
-    m_Value: {x: 0.21552499, y: 0.04831421, z: -0.010677377, w: 0.9752439}
+    m_Value: {x: -0.4121361, y: 0.5680905, z: -0.39493725, w: -0.5928251}
   m_Size:
-    m_Target: 27.427393
+    m_Target: 24.478115
     speed: 2
-    m_Value: 27.427393
+    m_Value: 24.478115
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -777,22 +777,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Kegiatan Luar Kampus\DTS\FGA-Metaverse\Project\Virtual-Archery
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 180.33334}
-    m_SelectedIDs: c26d0000
-    m_LastClickedID: 28098
-    m_ExpandedIDs: 00000000006c000000ca9a3b
+    scrollPos: {x: 0, y: 39.799988}
+    m_SelectedIDs: 86200100
+    m_LastClickedID: 73862
+    m_ExpandedIDs: 000000008620010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -820,7 +820,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000006c000000ca9a3b
+    m_ExpandedIDs: 000000008620010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -845,9 +845,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 0ac00100
-    m_LastClickedInstanceID: 114698
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: a28a0000
+    m_LastClickedInstanceID: 35490
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000010a5000000000000ece40200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -966,7 +966,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 486
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
