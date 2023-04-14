@@ -111,15 +111,10 @@ namespace StarterAssets
         private bool _hasAnimator;
         public GameObject arrowObject;
         public Transform arrowPoint;
-<<<<<<< HEAD
        
 
         
         private bool IsCurrentDeviceMouse{
-=======
-        private bool IsCurrentDeviceMouse
-        {
->>>>>>> f3ad2c8b0daa49d93bf7fec4f161ddf65fc7f3c5
             get
             {
 #if ENABLE_INPUT_SYSTEM
@@ -181,10 +176,7 @@ namespace StarterAssets
             {
                 _animator.SetBool("Aiming", false);
                 _animator.SetBool("Shooting", false);
-<<<<<<< HEAD
                 
-=======
->>>>>>> f3ad2c8b0daa49d93bf7fec4f161ddf65fc7f3c5
             }
         }
         public void Shoot()
