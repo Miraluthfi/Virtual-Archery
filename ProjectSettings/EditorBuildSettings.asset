@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Splash Screen.unity
+    path: Assets/Scenes/SplashScreen.unity
     guid: 9c6ebdedaa560a54a87076c5d23dc6c1
   - enabled: 1
     path: Assets/Scenes/StartMenu.unity
     guid: 21aa40f601a8afd4e9c8fc25177e3fcb
   - enabled: 1
-    path: Assets/Scenes/Virtual Archery.unity
+    path: Assets/Scenes/VirtualArchery.unity
     guid: 5d659c86b1db229479bdf16fee061787
   - enabled: 1
     path: Assets/Scenes/AR.unity
