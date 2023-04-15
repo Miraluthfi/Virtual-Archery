@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameAR.unity
     guid: 5e5f65417f58f7c4c9bbef71f74f4b8f
+  - enabled: 1
+    path: Assets/Scenes/MenuAR.unity
+    guid: 2e290a9f88713c14895b02d4ab66645a
   m_configObjects: {}
