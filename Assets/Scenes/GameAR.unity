@@ -394,8 +394,8 @@ GameObject:
   - component: {fileID: 232972266}
   - component: {fileID: 232972265}
   - component: {fileID: 232972264}
-  - component: {fileID: 232972268}
   - component: {fileID: 232972267}
+  - component: {fileID: 232972268}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -638,19 +638,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e233bb2ba694fd340916f0603ee62cb9, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e233bb2ba694fd340916f0603ee62cb9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 14.41372
+      value: 17.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e233bb2ba694fd340916f0603ee62cb9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 14.41372
+      value: 17.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e233bb2ba694fd340916f0603ee62cb9, type: 3}
       propertyPath: m_LocalScale.z
-      value: 14.41372
+      value: 17.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e233bb2ba694fd340916f0603ee62cb9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -692,6 +692,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e233bb2ba694fd340916f0603ee62cb9, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e233bb2ba694fd340916f0603ee62cb9, type: 3}
       propertyPath: m_Name
       value: recurvebow
@@ -716,15 +720,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9de329b0d6ec88742be517f89682578e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 25.084877
+      value: 29.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9de329b0d6ec88742be517f89682578e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 25.084877
+      value: 29.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9de329b0d6ec88742be517f89682578e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 25.084877
+      value: 29.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9de329b0d6ec88742be517f89682578e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -766,6 +770,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9de329b0d6ec88742be517f89682578e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9de329b0d6ec88742be517f89682578e, type: 3}
       propertyPath: m_Name
       value: Erika Archer With Bow Arrow
@@ -788,8 +796,8 @@ GameObject:
   - component: {fileID: 475556940}
   - component: {fileID: 475556939}
   - component: {fileID: 475556938}
-  - component: {fileID: 475556942}
   - component: {fileID: 475556941}
+  - component: {fileID: 475556942}
   m_Layer: 0
   m_Name: Recurve Bow
   m_TagString: Untagged
@@ -900,7 +908,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475556936}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -156.4, y: -0.4, z: -32.5}
+  m_LocalPosition: {x: -158.6, y: -0.4, z: -32.5}
   m_LocalScale: {x: 1.13, y: 1.13, z: 1.13}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1034,8 +1042,8 @@ GameObject:
   - component: {fileID: 535873189}
   - component: {fileID: 535873188}
   - component: {fileID: 535873187}
-  - component: {fileID: 535873191}
   - component: {fileID: 535873190}
+  - component: {fileID: 535873191}
   m_Layer: 0
   m_Name: Erika Archer
   m_TagString: Untagged
@@ -1350,15 +1358,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1428315e20e770949906da6613a2b1b6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 49.743027
+      value: 58.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1428315e20e770949906da6613a2b1b6, type: 3}
       propertyPath: m_LocalScale.y
-      value: 49.743027
+      value: 58.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1428315e20e770949906da6613a2b1b6, type: 3}
       propertyPath: m_LocalScale.z
-      value: 49.743027
+      value: 58.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1428315e20e770949906da6613a2b1b6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1400,6 +1408,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1428315e20e770949906da6613a2b1b6, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1428315e20e770949906da6613a2b1b6, type: 3}
       propertyPath: m_Name
       value: Target
@@ -1422,8 +1434,8 @@ GameObject:
   - component: {fileID: 1173334005}
   - component: {fileID: 1173334004}
   - component: {fileID: 1173334003}
-  - component: {fileID: 1173334007}
   - component: {fileID: 1173334006}
+  - component: {fileID: 1173334007}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -1536,7 +1548,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -160.1, y: 0, z: -334.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5216331097280869054}
   m_Father: {fileID: 0}
@@ -1668,8 +1680,8 @@ GameObject:
   - component: {fileID: 1196838614}
   - component: {fileID: 1196838613}
   - component: {fileID: 1196838612}
-  - component: {fileID: 1196838616}
   - component: {fileID: 1196838615}
+  - component: {fileID: 1196838616}
   m_Layer: 0
   m_Name: Bow
   m_TagString: Untagged
@@ -1735,7 +1747,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1196838615}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
+        m_MethodName: Stop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1912,7 +1924,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: df4bc8ac8b129644dadba6e0c545b6ed, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df4bc8ac8b129644dadba6e0c545b6ed, type: 3}
       propertyPath: m_LocalScale.x
@@ -1928,7 +1940,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df4bc8ac8b129644dadba6e0c545b6ed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.4
+      value: 5.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df4bc8ac8b129644dadba6e0c545b6ed, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1940,31 +1952,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df4bc8ac8b129644dadba6e0c545b6ed, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.4360298
+      value: -0.16433352
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df4bc8ac8b129644dadba6e0c545b6ed, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.556667
+      value: 0.6877459
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df4bc8ac8b129644dadba6e0c545b6ed, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.43602964
+      value: -0.628368
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df4bc8ac8b129644dadba6e0c545b6ed, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.55666703
+      value: 0.324274
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df4bc8ac8b129644dadba6e0c545b6ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 10.456
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df4bc8ac8b129644dadba6e0c545b6ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: 138.426
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df4bc8ac8b129644dadba6e0c545b6ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -103.858
+      value: -99.145
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: df4bc8ac8b129644dadba6e0c545b6ed, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2081,8 +2093,8 @@ GameObject:
   - component: {fileID: 1919713193}
   - component: {fileID: 1919713192}
   - component: {fileID: 1919713191}
-  - component: {fileID: 1919713195}
   - component: {fileID: 1919713194}
+  - component: {fileID: 1919713195}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -2327,8 +2339,8 @@ GameObject:
   - component: {fileID: 1932408459}
   - component: {fileID: 1932408458}
   - component: {fileID: 1932408457}
-  - component: {fileID: 1932408461}
   - component: {fileID: 1932408460}
+  - component: {fileID: 1932408461}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -2585,19 +2597,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3072893512723701864, guid: 1c0278442c132514ea722353eba2f690, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3072893512723701864, guid: 1c0278442c132514ea722353eba2f690, type: 3}
       propertyPath: m_LocalScale.x
-      value: 38.98881
+      value: 44.700005
       objectReference: {fileID: 0}
     - target: {fileID: 3072893512723701864, guid: 1c0278442c132514ea722353eba2f690, type: 3}
       propertyPath: m_LocalScale.y
-      value: 38.98881
+      value: 44.700005
       objectReference: {fileID: 0}
     - target: {fileID: 3072893512723701864, guid: 1c0278442c132514ea722353eba2f690, type: 3}
       propertyPath: m_LocalScale.z
-      value: 38.98881
+      value: 44.700005
       objectReference: {fileID: 0}
     - target: {fileID: 3072893512723701864, guid: 1c0278442c132514ea722353eba2f690, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2638,6 +2650,10 @@ PrefabInstance:
     - target: {fileID: 3072893512723701864, guid: 1c0278442c132514ea722353eba2f690, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072893512723701864, guid: 1c0278442c132514ea722353eba2f690, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c0278442c132514ea722353eba2f690, type: 3}
