@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="bowandarrow" size="100.000000 99.882812" />
+    <ImageTarget name="manathlete" size="100.000000 66.666664" />
+    <ImageTarget name="medievalcrossbow" size="100.000000 100.000000" />
+    <ImageTarget name="brownarcher" size="100.000000 66.792450" />
+    <ImageTarget name="blackarcher" size="100.000000 100.000000" />
+    <ImageTarget name="target" size="100.000000 66.666664" />
+    <ImageTarget name="arheratlete" size="100.000000 50.000000" />
+  </Tracking>
+</QCARConfig>
