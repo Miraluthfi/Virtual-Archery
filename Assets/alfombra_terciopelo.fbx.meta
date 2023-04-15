@@ -3,7 +3,12 @@ guid: e604a19b5ac6ea34fa7b0db9d4706c76
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ancient Fire Arrow
+    second: {fileID: 2100000, guid: 0fa8f73637e295c48a37172eefeb0d1e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
