@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Compund" size="0.215000 0.217892" />
+    <ImageTarget name="LongBow" size="500.000000 751.366150" />
+  </Tracking>
+</QCARConfig>
