@@ -3,7 +3,12 @@ guid: df4bc8ac8b129644dadba6e0c545b6ed
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arco
+    second: {fileID: 2100000, guid: f488d0245e397ba4e8694efac1d73893, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
